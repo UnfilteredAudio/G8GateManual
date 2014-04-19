@@ -10,13 +10,8 @@ Contents:
 
 .. toctree::
    :maxdepth: 2
+   introduction
+   gettingstarted
 
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
 
