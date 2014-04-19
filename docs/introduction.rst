@@ -12,16 +12,16 @@ Gating is an effect commonly used to reduce audio noise by only allowing signals
 
 Features
 --------
-* “Cycle” and “One-shot” gating modes, allowing you to use G8 as a stutter effect, granular synth, or triggerable envelope. 
-* Sidechain support
-* Independent Analysis Gain and Output Gain controls
-* RMS and Peak style metering
-* Lookahead 
-* Wet/Dry knob for parallel gating or expansion
-* Reduction setting which can be used to limit the harshness of the gate
-* Hysteresis and Hold parameters to prevent “chatter” 
-* Customizable MIDI input and output
-* “Reject” outputs. These follow the opposite gating envelope as the output, allowing you to use G8 as a two-band amplitude splitter!
-* Flip mode, which reverses G8’s threshold analysis behavior
-* Expert Mode featuring an advanced routing, amplitude, and filtering matrix for each channel, as well as individual input monitors for up to 4 channels
+- “Cycle” and “One-shot” gating modes, allowing you to use G8 as a stutter effect, granular synth, or triggerable envelope. 
+- Sidechain support
+- Independent Analysis Gain and Output Gain controls
+- RMS and Peak style metering
+- Lookahead 
+- Wet/Dry knob for parallel gating or expansion
+- Reduction setting which can be used to limit the harshness of the gate
+- Hysteresis and Hold parameters to prevent “chatter” 
+- Customizable MIDI input and output
+- “Reject” outputs. These follow the opposite gating envelope as the output, allowing you to use G8 as a two-band amplitude splitter!
+- Flip mode, which reverses G8’s threshold analysis behavior
+- Expert Mode featuring an advanced routing, amplitude, and filtering matrix for each channel, as well as individual input monitors for up to 4 channels
 

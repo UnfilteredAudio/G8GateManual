@@ -6,6 +6,10 @@
 G8 Gate by Unfiltered Audio
 ===========================
 
+Welcome to the G8 Gate manual! If you are reading this as a PDF, you can find our online version at http://g8-gate.readthedocs.org/
+
+This is the open-source manual for G8 Gate, a VST/AU plug-in by Unfiltered Audio. If you find any typos, or want to add information, feel free to modify it on Github and send us a pull request.
+
 
 Contents:
 
@@ -14,6 +18,7 @@ Contents:
 
   introduction
   gettingstarted
-
+  controls
+  hostinstructions
 
 
