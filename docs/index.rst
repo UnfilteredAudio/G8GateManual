@@ -3,15 +3,17 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to G8 Gate's documentation!
-===================================
+G8 Gate by Unfiltered Audio
+===========================
+
 
 Contents:
 
 .. toctree::
    :maxdepth: 2
-   introduction
-   gettingstarted
+
+  introduction
+  gettingstarted
 
 
 
