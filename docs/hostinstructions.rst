@@ -64,6 +64,8 @@ Max/MSP
 
 .. image:: /images/maxMSPRouting.png
 
+**Sidechain Ins and Reject Outs**
+
 
 Numerology
 ----------
@@ -77,6 +79,15 @@ Renoise
 Studio One
 ----------
 
+**Sidechain Ins and Reject Outs**
+Unfortunately, Studio One does not support audio routing to or from multi-channel VST2 plug-ins. We plan on releasing a VST3 version of G8 in the future. This will be a free update to all users.
+
 .. image:: /images/studioOneMidi.png
 
+**MIDI**
+Routing MIDI to and from G8 is extremely easy in Studio One.
 
+- Add G8 Gate to an audio track.
+- Create an instrument track.
+- For receiving MIDI from G8, click the MIDI input selector (the top one) and select G8 Gate channel 1.
+- For sending MIDI to G8, click the MIDI output selector (the bottom one) and select G8 Gate channel 1.
