@@ -1,6 +1,10 @@
 Using G8 in Your Host
 =====================
 
+**Special Note**:
+
+If you plan on using the Sidechain Inputs and Reject Outputs, we recommend using the VST version of G8 whenever possible.
+
 Ableton Live
 ------------
 
@@ -83,6 +87,12 @@ Using MIDI in Max/MSP is outside the scope of this manual. The above instruction
 
 Numerology
 ----------
+
+.. image:: /images/numerology.png
+
+**MIDI in to G8**
+
+After G8 is loaded into a rack, hit your "Tab" key to switch to cabling mode. Here, you can easily connect other modules to G8's MIDI input.
 
 REAPER
 ------
