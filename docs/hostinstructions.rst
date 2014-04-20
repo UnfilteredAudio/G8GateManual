@@ -45,6 +45,7 @@ Bitwig Studio
 -------------
 
 **Sidechain Ins and Reject Outs**
+
 Unfortunately, Bitwig does not support routing to or from multi-channel plug-ins at this time. When Bitwig is updated, we will update this manual to provide instructions on how to use it.
 
 Cubase
@@ -80,11 +81,13 @@ Studio One
 ----------
 
 **Sidechain Ins and Reject Outs**
+
 Unfortunately, Studio One does not support audio routing to or from multi-channel VST2 plug-ins. We plan on releasing a VST3 version of G8 in the future. This will be a free update to all users.
 
 .. image:: /images/studioOneMidi.png
 
 **MIDI**
+
 Routing MIDI to and from G8 is extremely easy in Studio One.
 
 - Add G8 Gate to an audio track.
