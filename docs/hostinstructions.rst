@@ -6,13 +6,22 @@ Ableton Live
 
 .. image:: /images/abletonRouting.png
 
-**MIDI**:
+**MIDI In to G8**:
 
 - Add an instance of G8 to an audio track that you want to apply gating to. 
-- Create a MIDI clip with the pattern that you want to use for gating. 
-- Click the “IO” symbol on the right side of the window to show the input/output section.
-- Go to the MIDI track, and select the “MIDI To” dropdown, selecting your main audio track. 
-- The subcategory dropdown menu right below this should now activate allowing you to select “1 G8 Gate.” Activating this setting will route the MIDI track into G8 so that you can use it to control the gate’s envelope. Make sure to set G8’s MIDI input note to whatever note is being used in your pattern.
+- Create a MIDI track. Optionally, create a clip with the pattern that you want to use for gating. 
+- Click the “IO” symbol on the right side of the Ableton window to show the input/output section for each track.
+- Go to the created MIDI track, and select the “MIDI To” dropdown, selecting your audio track that G8 is using. 
+- The subcategory dropdown menu right below this should now activate allowing you to select “1 G8 Gate.” Selecting G8 will route the MIDI track into G8 so that you can use it to control the gate’s envelope. Make sure to set G8’s MIDI input note is set to whatever note is being used in your pattern.
+
+**MIDI Out from G8**
+
+- Add an instance of G8 to an audio track. 
+- Create a MIDI track.
+- Click the “IO” symbol on the right side of the Ableton window to show the input/output section for each track.
+- Go to the created MIDI track, and click the first “MIDI From” dropdown, selecting your audio track that G8 is using. 
+- The subcategory dropdown menu right below this should now activate allowing you to select “1 G8 Gate.” Selecting G8 will route the MIDI from G8 into this track.
+- Set "Monitor" to "In". This will enable MIDI to reach this track, even when it's not set to record.
 
 **Sidechain Ins**:
 
@@ -24,9 +33,19 @@ Ableton Live
 
 **Reject Outs**:
 
+- Add an instance of G8 to an audio track that you want to apply gating to.
+- Create a second audio track for receiving audio from G8's Reject Outs.
+- Click the "IO" symbol on the right side of the window to show the input/output section.
+- Go to the track that is receiving audio from the Reject Outs, and click the first dropdown box under "Audio From". From here, select the track that G8 is on.
+- The second dropdown box will now allow you to select "G8 Gate 3/4".
+- Set "Monitor" to "In". This will allow you to always hear the audio coming from G8's Reject Outs.
+
 
 Bitwig Studio
 -------------
+
+**Sidechain Ins and Reject Outs**
+Unfortunately, Bitwig does not support routing to or from multi-channel plug-ins at this time. When Bitwig is updated, we will update this manual to provide instructions on how to use it.
 
 Cubase
 ------
