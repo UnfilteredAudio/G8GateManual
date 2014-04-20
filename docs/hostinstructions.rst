@@ -3,6 +3,9 @@ Using G8 in Your Host
 
 Ableton Live
 ------------
+
+.. image:: /images/abletonRouting.png
+
 **MIDI**:
 
 - Add an instance of G8 to an audio track that you want to apply gating to. 
@@ -40,6 +43,9 @@ Logic Pro X
 Max/MSP
 -------
 
+.. image:: /images/maxMSPRouting.png
+
+
 Numerology
 ----------
 
@@ -48,4 +54,10 @@ REAPER
 
 Renoise
 -------
+
+Studio One
+----------
+
+.. image:: /images/studioOneMidi.png
+
 
