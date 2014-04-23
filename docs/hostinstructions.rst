@@ -79,6 +79,29 @@ Digital Performer
 FL Studio
 ---------
 
+**Please note that G8 Gate will not produce a gating effect in FL Studio until the Reject Outputs are manually set to a different channel.** This is due to the fact that FL Studio groups a plugin's aux ins and aux outs together. Keep this in mind when using Expert Mode, as well, as a standard input will be sent to inputs 1, 2, 3, and 4 until the sidechain input is manually setup.
+
+**Sidechain Input and Reject Outputs**
+
+.. image:: /images/flstudioMidi.png
+
+**MIDI In**
+
+- Create a MIDI Out Device and an instance of G8.
+- Select a port to send MIDI on.
+- Open up G8's settings menu.
+- Select the same port to receive MIDI on.
+
+**MIDI Out**
+
+- Create an instance of G8.
+- Open up G8's settings menu.
+- Select a MIDI Out port.
+- Open up an instrument that you would like to send MIDI to.
+- Open this instrument's settings menu.
+- Set the instrument's MIDI In port to be the same as G8's MIDI Out port. In the image above, we are triggering Madrona Labs' Aalto, one of our favorite softsynths.
+
+
 Logic Pro X
 -----------
 
@@ -117,6 +140,9 @@ REAPER
 
 Renoise
 -------
+
+Renoise, unfortunately, does not support routing of multi-channel plug-ins or plug-in MIDI routing. If these features are added to Renoise in the future, we will update this manual with instructions on how to use them.
+
 
 Studio One
 ----------

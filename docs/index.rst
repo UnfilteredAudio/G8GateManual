@@ -19,6 +19,7 @@ Contents:
   introduction
   gettingstarted
   controls
+  modes
   hostinstructions
 
 
