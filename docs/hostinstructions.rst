@@ -48,6 +48,24 @@ Ableton Live
 Bitwig Studio
 -------------
 
+.. image:: /images/bitwigMidi.png
+
+**MIDI In**
+
+- Create an instrument track.
+- Add an instance of G8 to this instrument track. There should not be anything before G8 on this track.
+- Create a MIDI clip. The MIDI from this clip will go to G8's MIDI input.
+
+To route audio into G8 with this setup:
+
+- Create an audio or instrument track that you want to be gated.
+- Set the output of that track to be the instrument track that G8 is currently on.
+
+**MIDI Out**
+
+-Place an instance of the instrument you want to send MIDI to *after* G8 Gate.
+
+
 **Sidechain Ins and Reject Outs**:
 
 Unfortunately, Bitwig does not support routing to or from multi-channel plug-ins at this time. When Bitwig is updated, we will update this manual to provide instructions on how to use it.
@@ -117,3 +135,13 @@ Routing MIDI to and from G8 is extremely easy in Studio One.
 - Create an instrument track.
 - For receiving MIDI from G8, click the MIDI input selector (the top one) and select G8 Gate channel 1.
 - For sending MIDI to G8, click the MIDI output selector (the bottom one) and select G8 Gate channel 1.
+
+
+Usine Hollyhock
+---------------
+
+.. image:: /images/usine.png
+
+**Sidechain Ins, Reject Outs and MIDI**
+
+Setting up G8 is extremely easy in Hollyhock. Simply drop G8 onto a rack, and double-click it to bring up the modular patching view. Sidechain Inputs are inputs 3 and 4, while the Reject Outputs are outputs 3 and 4.
