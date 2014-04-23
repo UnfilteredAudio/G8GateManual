@@ -7,13 +7,17 @@ Primary Controls
 **Analysis Gain**:
 Controls the amount of gain applied to the analyzed audio signal. The analyzed signal is considered separately from the outgoing signal in G8. Because of this, this control does not affect the amplitude of the signal that you can hear.
 
-This applies gain adjustment to the signal being used for analysis but does not have any effect on the level of the output signal being heard. For instance, if the analysis signal is the normal stereo input, applying a large amount of analysis gain will not cause resulting signal to sound louder after passing through. 
-
 **Threshold**:
-Controls the level of the gate’s threshold. When this threshold is exceeded by the amplitude of the incoming audio, the gate will open and allow the audio to pass through.
+Controls the level of the gate’s threshold. When this threshold is exceeded by the amplitude of the incoming audio, the gate will open and allow the audio to pass through. When the incoming audio is below the threshold value on the other hand, the gate will close. 
 
 **Gate Meter**:
-A non-interactive component that displays the current value of the gate envelope. If you would like to see a more detailed history of the envelope’s value, you can click the “Display Options” button and enable the “Show Gate” parameter, which will then add the envelope to the waveform display.
+A non-interactive component that displays the current value of the gate envelope. If you would like to see a more detailed history of the envelope’s value, you can click the “Display Options” button and enable the “Show Gate” parameter, which will then add the envelope to the waveform display. The three options can each be enabled/disabled individually: 
+
+- Show Input (Gray): Shows the input signal used to compare to the threshold value during analysis. 
+
+- Show Output (Red): Shows the output signal after the gating has been applied.
+
+- Show Gate (Black): Shows the normalized gating envelope as it is applied to the incoming signal.   
 
 **Output Gain**:
 Controls the amount of gain applied to the outgoing signal from G8. This gain does not affect the analysis levels of the incoming audio.
