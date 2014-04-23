@@ -55,7 +55,7 @@ Selects the behavior of the gate envelope. Choose between “Regular Gating”, 
 **Display Options**:
 Provides a menu to enable or disable the entire waveform display, or individual components of the waveform display.
 
-Bottom Left Controls
+Advanced Controls (Bottom Left)
 --------------------
 **Channels Display**:
 Displays how many channels your host currently supports. This number is equal to the number of input channels. You can use this for troubleshooting your setup.
@@ -64,14 +64,25 @@ Displays how many channels your host currently supports. This number is equal to
 Toggles whether or not Expert Mode is active. For more information, please see the section on “Expert Mode”.
 
 **Flip Mode**:
-Toggles whether the primary outputs and reject outputs are swapped. For more information and techniques, check out “Reject Outputs” and “Flip Mode”.
+Toggles whether the primary outputs and reject outputs are swapped. For more information and techniques, check out “Reject Outputs” and “Flip Mode.”
 
-Bottom Right Controls
+MIDI Controls (Bottom Right)
 ---------------------
 
 **MIDI**:
-Toggles whether G8’s MIDI inputs and outputs are active. For more information, please see the section on “MIDI”.
+Toggles whether G8’s MIDI inputs and outputs are active. When this toggle is de-activated, G8 will not send or receive MIDI. 
 
+**In**:
+The MIDI input section has a display lamp that will light up any time G8 detects a matching incoming MIDI note. The left and right arrows are used to change which note G8 will look for to activate this trigger. 
+
+**Out**:
+The MIDI output section has a display lamp that will light up any time G8 is sending MIDI output. The left and right arrows are used to change which note G8 will use to send triggers.  
+
+For more information, please see the section on “MIDI”.
+
+
+Aditional Features
+------------------
 **Reject Outputs**:
 One of G8’s most innovative features is it’s ability to create “Reject Outputs” when used in four-channel mode. The Reject Outputs are a set of auxiliary outputs that output the sound that is currently being blocked by the gate. If this is hard to conceptualize, mixing together the gated signal and the Reject Outputs will give you back your original signal.
 
