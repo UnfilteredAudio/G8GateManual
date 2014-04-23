@@ -1,6 +1,8 @@
 Introduction
 ============
 
+.. image:: /images/g8master.png
+
 G8 is a high-quality noise gate with many tricks up its sleeve, turning it into a creative effect in its own right as well as an overall dynamics workstation. Use it for quickly fixing noisy recordings or for finely controlled amplitude manipulation, ducking unwanted sounds while emphasizing what you want to hear. 
 
 Gating is an effect commonly used to reduce audio noise by only allowing signals over a certain amplitude threshold to pass. Generally, this is used to eliminate unwanted noise from tracks, but with G8, it can also be used for exaggerated stuttering rhythms and all sorts of other creative dynamic effects.

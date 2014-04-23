@@ -81,7 +81,27 @@ FL Studio
 
 **Please note that G8 Gate will not produce a gating effect in FL Studio until the Reject Outputs are manually set to a different channel.** This is due to the fact that FL Studio groups a plugin's aux ins and aux outs together. Keep this in mind when using Expert Mode, as well, as a standard input will be sent to inputs 1, 2, 3, and 4 until the sidechain input is manually setup.
 
-**Sidechain Input and Reject Outputs**
+.. image:: /images/flstudioSidechain.png
+
+**Sidechain Ins**
+
+- Create an instance of G8.
+- Select a mixer track to route to G8's sidechain input.
+- With the sidechain track focused, click on the "Send to" button on G8's track (see above photo).
+- Open up G8's editor and select the settings page.
+- Change input 3/4's routing to "1". This will route the sidechain mixer track into G8.
+
+.. image:: /images/flstudioReject.png
+
+**Reject Outs**
+
+- Create an instance of G8.
+- Select a mixer track to route G8's Reject Output to.
+- With the G8 mixer track focused, click on the "Send to" button on the Reject mixer track (see above photo).
+- Turn the Gain on the send completely off. Otherwise, you will hear all of G8's track AND the Reject.
+- Open up G8's editor and select the settings page.
+- Change output 3/4's routing to "2" ("1" is the Master Out). This will route G8's reject outputs to that track.
+- **Please note that if the Reject Out and the Main Out are both audible, G8 will not have an effect on the audio**. If you want traditional gating behavior, mute the Reject Output mixer track.
 
 .. image:: /images/flstudioMidi.png
 
