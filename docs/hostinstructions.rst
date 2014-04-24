@@ -163,6 +163,18 @@ Renoise
 
 Renoise, unfortunately, does not support routing of multi-channel plug-ins or plug-in MIDI routing. If these features are added to Renoise in the future, we will update this manual with instructions on how to use them.
 
+Sonar
+-----
+
+.. image:: /images/sonarSidechain.png
+
+**Sidechain Ins**
+
+- Add G8 to an audio track.
+- Select another audio track that you want to route to G8's sidechain.
+- Select either the Send Out or the Main Out section of that track. With Send, you will still hear the track that you are using for sidechaining.
+- Select the output dropdown under your chosen section and select G8 Gate Input 2.
+
 
 Studio One
 ----------
