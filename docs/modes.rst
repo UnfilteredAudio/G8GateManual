@@ -31,3 +31,8 @@ To get you started, here are some ideas for how to use Expert Mode:
 - Control an uneven stereo signal by applying separate gain to each channel or setting Analysis Mode to “Average”.
 - Create a mix of your main input and external sidechain input. Balance these correctly to create unusual gating polyrhythms.
 - For even more unusual gating behavior, change the analysis mode to “Average” and use two very different input sources.
+
+
+MIDI
+----
+
