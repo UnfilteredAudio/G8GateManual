@@ -125,6 +125,9 @@ FL Studio
 Logic Pro X
 -----------
 
+Unfortunately, Logic does not support Sidechain Ins, Reject Outs, or MIDI Out at this time. We are waiting for aux port support from the JUCE plug-in library that we are using. Additionally, MIDI Out from AU is not supported in most AU hosts. When we add in aux port support for Logic, we will release a free update for G8.
+
+
 Max/MSP
 -------
 
