@@ -21,5 +21,6 @@ Contents:
   controls
   modes
   hostinstructions
+  credits
 
 
