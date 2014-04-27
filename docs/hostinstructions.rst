@@ -34,6 +34,9 @@ Ableton Live
 - Click the “IO” symbol on the right side of the window to show the input/output section. 
 - Go to the sidechain track, and select the “Audio To” dropdown, changing “Master” to your main audio track. 
 - The subcategory dropdown menu right below this should now activate allowing you to select “3/4 G8 Gate.” Activating this setting will route the sidechain track into the third and fourth inputs on G8 so that you can use it to control the gate’s envelope.
+- If you would still like to hear the audio going to G8's sidechain input, create another audio track.
+- Set the new audio track's input to the track that you are sending to G8.
+- Set "Monitor" to "In". Now you will simultaneously hear G8 Gate and its sidechain input.
 
 **Reject Outs**:
 
