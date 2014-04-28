@@ -179,7 +179,7 @@ REAPER
 - The button should now say "4 In 4 Out". The bottom left corner of G8 should say "Channels: 4".
 - Now, bring up the track's routing panel by clicking the "IO" button on the G8 track. If you are using a different REAPER skin, this button might not say "IO".
 
-.. image:: /images/allRouting.png
+.. image:: /images/reaper/allRouting.png
 
 **Sidechain Inputs**
 
