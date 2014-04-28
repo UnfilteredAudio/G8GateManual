@@ -34,7 +34,7 @@ Ableton Live
 - Click the “IO” symbol on the right side of the window to show the input/output section. 
 - Go to the sidechain track, and select the “Audio To” dropdown, changing “Master” to your main audio track. 
 - The subcategory dropdown menu right below this should now activate allowing you to select “3/4 G8 Gate.” Activating this setting will route the sidechain track into the third and fourth inputs on G8 so that you can use it to control the gate’s envelope.
-- If you would still like to hear the audio going to G8's sidechain input, create another audio track.
+- **If you would still like to hear the audio going to G8's sidechain input**, create another audio track.
 - Set the new audio track's input to the track that you are sending to G8.
 - Set "Monitor" to "In". Now you will simultaneously hear G8 Gate and its sidechain input.
 
@@ -163,6 +163,43 @@ After G8 is loaded into a rack, hit your "Tab" key to switch to cabling mode. He
 
 REAPER
 ------
+
+**Initial Setup for Sidechain Ins and Reject Outs**
+
+- You will need to make G8 aware of four input and output channels.
+- First, add G8 to a track and bring up the editor window.
+
+.. image:: /images/reaper/twoinbar.png
+
+- Click the REAPER button "2/4 In 2/4 Out" to bring up the routing matrix.
+- Click the small "+" button on the routing matrix to add 2 channels of input and output.
+
+.. image:: /images/reaper/router.png
+
+- The button should now say "4 In 4 Out". The bottom left corner of G8 should say "Channels: 4".
+- Now, bring up the track's routing panel by clicking the "IO" button on the G8 track. If you are using a different REAPER skin, this button might not say "IO".
+
+.. image:: /images/allRouting.png
+
+**Sidechain Inputs**
+
+- From the track's routing panel, create a new "Receive" from the track you want to use as the sidechain.
+- Select "Audio: 1/2 => Audio: 3/4". This means that the main output of the sidechain track (channels 1 and 2) are being routed to the sidechain inputs (channels 3 and 4) of G8.
+
+**Reject Outputs**
+
+- From the track's routing panel, create a new "Send" to the track you want to use for Reject Outputs.
+- Select "Audio: 3/4 => Audio: 1/2". This means that the Reject Outputs (channels 3 and 4) of G8 are being routed to the other track's main inputs (channels 1 and 2).
+
+**MIDI Input**
+
+- From the track's routing panel, create a new "Receive" from the track you want to receive MIDI from.
+- Select "Audio: None". This will automatically turn on MIDI receive for the track. If you would like to receive audio *and* MIDI simultaneously, click the MIDI button (with the MIDI cable icon) to turn on MIDI receive.
+
+**MIDI Output**
+
+- From the track's routing panel, create a new "Send" to the track you want to send G8's MIDI output to.
+- Select "Audio: None". This will automatically turn on MIDI send for the track. If you would like to send audio *and* MIDI simultaneously, click the MIDI button (with the MIDI cable icon) to turn on MIDI send.
 
 Renoise
 -------
