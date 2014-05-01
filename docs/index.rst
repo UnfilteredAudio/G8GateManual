@@ -20,6 +20,7 @@ Contents:
   gettingstarted
   controls
   modes
+  recipes
   hostinstructions
   credits
 
