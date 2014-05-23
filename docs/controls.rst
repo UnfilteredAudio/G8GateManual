@@ -70,7 +70,7 @@ MIDI Controls (Bottom Right)
 ---------------------
 
 **MIDI**:
-Toggles whether G8’s MIDI inputs and outputs are active. When this toggle is de-activated, G8 will not send or receive MIDI. 
+Toggles whether G8’s MIDI inputs and outputs are active. When this toggle is de-activated G8 will not send or receive MIDI notes. 
 
 **In**:
 The MIDI input section has a display lamp that will light up any time G8 detects a matching incoming MIDI note. The left and right arrows are used to change which note G8 will look for to activate this trigger. 
