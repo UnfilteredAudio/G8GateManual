@@ -19,6 +19,9 @@ Contents:
   introduction
   gettingstarted
   controls
+  modes
+  recipes
   hostinstructions
+  credits
 
 
