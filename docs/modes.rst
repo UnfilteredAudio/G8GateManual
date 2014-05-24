@@ -1,6 +1,23 @@
 Additional Features and Modes
 =============================
 
+Alternate Gate Behaviors
+--------------
+Cycle Mode and One-Shot Mode, are variations on G8's default gating behavior, each of which change the way in which the gating envelope will be applied while the gate is "open" (i.e. the input signal is above the threshold level). 
+
+**Cycle Mode**: 
+
+In Cycle Mode the gating envelope will continuously cycle through each of its stages- Attack, Hold, Release, and Delay (optional). Each of the gating parameters control the length of its corresponding portion of this envelope, and the cycle will be repeated until the input signal falls below the threshold level triggering a final release. The speed of each cycle is the sum of the lengths of all four segments (Attack, Hold, Release, and Delay). 
+
+Cycle Mode is useful for creating effects such as amplitude-sensitive tremolo (i.e. when the guitar gets loud, add tremolo), especially in combination with variable reduction amounts. If the envelope lengths are set very low (< 50ms), you can create AM synthesis where the length of the entire cycle functions as the carrier frequency. Similarly, if the delay time is increased while the rest of the envelope values remain very low, you can create granular synthesis where each cycle is heard as an individual sound grain. 
+
+**One-Shot Mode**:
+
+One-Shot Mode is a variation on Cycle Mode, where the gating envelope only fires a single time whenever the input signal goes over the threshold level. After triggering, the envelope will not re-fire until the signal has gone below the threshold value and passes it again. This can be very useful for decay-shaping percussion sounds, since it is essentially an ASR envelope. It can be used, for instance, to decrease or change the character of an otherwise overly ringy snare drum, or for irregular stuttering effects.  
+
+When in Cycle or One-Shot Mode, G8 will generate a MIDI out note whenever the envelope is triggered. Using this feature in One-Shot Mode is a great way to replace drum hits with another source. In cycle mode, you can use it to create MIDI rolls, automatic bouncing balls, and other otherwise difficult to program flourishes. 
+
+
 Reject Outputs
 --------------
 
