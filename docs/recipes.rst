@@ -15,7 +15,7 @@ Autopanner
 Tremolo
 -------
 
-- Set G8's behavior to "Cycle" (instead of "One Shot" or "Regular Gating").
+- Set G8's behavior to "Cycle" (instead of "One-Shot" or "Regular Gating").
 - Set the Threshold to its minimum value. You should hear a dramatic tremolo effect.
 - For a softer tremolo effect, adjust the "Reduction" value.
 - Attack, Release, and Hold settings will affect the tremolo's speed.
@@ -38,4 +38,15 @@ Bouncing Ball MIDI Generation
 - Connect G8's MIDI output to an instrument that you would like to trigger (For more detailed instructions, please see the section on "Using G8 In Your Host").
 - You should now hear the instrument triggering at a regular rate. For a more rapid bounce, decrease the Attack, Hold, and Release times.
 - Once you have a bounce setting that you like, increase/decrease the Delay parameter.
+
+
+Percussion Synthesizer
+----------------------
+
+- Set G8's behavior to "One-Shot".
+- Run a synthesizer into G8. A great starting patch is a simple mix of a sine tone and white noise.
+- Set G8's Attack time to about 10 ms. Set the Hold to 0 ms and the Release to around 100.
+- Set G8's Threshold to an appropriate setting.
+- Each time you play a note on the synth, G8 will apply its envelope. Since G8 is capable of creating extremely short envelope segments, it makes a great alternative to some synths' less flexible built-in envelope generators.
+- For more fun, set G8's behavior to "Cycle" for repeated percussion.
 

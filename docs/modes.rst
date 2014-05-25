@@ -13,7 +13,9 @@ Cycle Mode is useful for creating effects such as amplitude-sensitive tremolo (i
 
 **One-Shot Mode**:
 
-One-Shot Mode is a variation on Cycle Mode, where the gating envelope only fires a single time whenever the input signal goes over the threshold level. After triggering, the envelope will not re-fire until the signal has gone below the threshold value and passes it again. This can be very useful for decay-shaping percussion sounds, since it is essentially an ASR envelope. It can be used, for instance, to decrease or change the character of an otherwise overly ringy snare drum, or for irregular stuttering effects.  
+One-Shot Mode is a variation on Cycle Mode, where the gating envelope only fires a single time whenever the input signal goes over the threshold level. The envelope runs through the Attack, Hold, and Release stages immediately, no matter how long the incoming audio is above the threshold for. The envelope will not fire again until the audio has dropped below the threshold and risen above it again. One-Shot mode works best on non-layered sounds, such as an individual drum channel. You can use One-Shot mode, for instance, to drastically alter the character of a snare hit, or to turn a more sustained synth part into percussion tones.
+
+**Additional Notes**:
 
 When in Cycle or One-Shot Mode, G8 will generate a MIDI out note whenever the envelope is triggered. Using this feature in One-Shot Mode is a great way to replace drum hits with another source. In cycle mode, you can use it to create MIDI rolls, automatic bouncing balls, and other otherwise difficult to program flourishes. 
 
